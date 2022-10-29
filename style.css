@@ -1,203 +1,109 @@
-* {
+
+*{
     box-sizing: border-box;
-}
-
-body {
-   
-    margin: 0;
-    padding: 0;
-}
-
-
-.items {
-    background-color: white;
-    position: fixed;
-    display:flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    margin: 0;
-    cursor: pointer;
-    list-style: none;
+    
     
 }
 
+body {
+    background-color: #5273a9;
+    font-family: 'Poppins', sans-serif;
+    color: #130376;
+    padding: 0;
+    margin: 0;
+
+}
+
 h1 {
-    justify-content: left;
-}
-
-#navbar ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-  }
-
-
-ul {
-    list-style: none;
-}
-
-li {
-    justify-content: right;
-    margin-right: 50px;
-    font-weight: bold;
-}
-
- a {
-    text-decoration: none;
-    font-size: 18px;
-    color: red;
-}
-
-
-section#about-me {
-    width: 100%;
-    background: #030250;
-    border: 4px;
-/*     margin-top: 50px; */
-    padding: 50px;
-    color: azure;
-    font-size: 24px;
-    line-height: 30px;
-}
-
-
-
-.projects {
-    margin-top: 50px;
-    padding-top: 10px;
-    background:#242F40;
-    display:flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
-}
-
-.projects h2 {
-  color: #f1f1f1;
-}
-
-
-section main {
-    display: grid;
-    grid-template-columns: 500px 500px;
-  }
-
-
-.project-tile {
-    border: 2px solid #eee;
-    border-radius: 4px;
-    padding: 5px;
-    background-color: #fff;
-    margin: 20px 30px;
-  }
-  
-  img {
-    max-width: 100%;
-    display: block;
-    height: 95%;
-    margin: 0 auto;
-  }
-
-  figcaption {
-    font-size: 18px;
-    color:rgb(255, 64, 0);
-    padding: 4px;
-    font-weight: bold;
+    font-size: 36px;
     text-align: center;
-  }
-
-  .service{
-    display:flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
-  }
+    color: #ffffff;
+    margin: 50px;
+}
 
 
-  .services-list {
-    width: 80%;
-    padding: 20px;
-    background:#ffffff;
-    display:flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: left;
-  }
 
- .services-list ul {
-    margin-top: 0;
-    background-color: #11a249;
-  }
+.form {
+    margin: 50px auto ;
+    width: 50% ;
+    text-align: center;
+    background: rgb(5, 14, 96);
+    border-radius: 10px;
+    border: 2px solid#ffffff;
+    padding: 50px 25px;
+    
+    
 
+}
 
-  .services-list ul li {
-    background-color: #11a249;
-    padding: 20px;
+form div {
+    padding: 15px;
     font-size: 18px;
-    color: #fff;
-    border-radius: 5px;
-  }
-
-  footer {
-    width: 100%;
-    background-color: rgb(18, 150, 226);
-    /* padding-top: 50px;
-    padding-bottom: 50px; */
-    padding: 100px;
-    display: flex;
-    flex-direction: row;
-  }
- 
-
-  footer div {
-    margin:0;
-  }
-
-  .foot .img {
-    width: 100%;
-    height: 400px;
-    margin-right: 0;
-    border-radius: 5px;
-    border: 5px solid salmon;
-      }
-
-  .foot p {
-    margin-left: 10px;
-    width: 300px;
-    height: 400px;
-    justify-content: center;
-    color: #00055c;
-    font-size: 24px;
-    font-weight: bolder;
-    line-height: 50px;
-  }
-
-
-  .foot#message {
-    width: 500px;
     display: flex;
     flex-direction: column;
-    margin-left: 300px;
-    font-size: 18px;
+}
+
+label {
     font-weight: bold;
-    color: #ffffff;
-  }
-
-
-  textarea {
-    margin-top: 10px;
-    border-radius: 5px;
-    border: 2px solid black;
-    height: 100px;
     font-size: 18px;
-  }
+    color: #faebd7;
+    text-align: left;
+}
 
 
-  button {
-    width: 50%;
-    margin-top: 15px;
+input[type=text],
+input[type=tel],
+input[type=submit] {
     padding: 10px;
+    width: 90%;
+    font-size: 18px;
+    font-weight: normal;
+
+}
+
+
+#gender {
+    padding: 10px;
+    width: 40%;
+    font-size: 18px;
+    font-weight: normal;
+
+}
+
+input[type=date] {
+    padding: 10px;
+    width: 40%;
+    font-size: 18px;
+    font-weight: normal;
+
+}
+
+/* div input[type=color] {
+    margin-top: 5px;
+    width: 40%;
+    padding: 20px;
+    
+
+} */
+
+input[type="color"] {
+    margin-top: 5px;
+    width: 40%;
+	border: none;
+	height: 32px;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+	border: none;
+}
+
+
+div input[type=submit] {
+    margin: 5px;
+    width: 50%;
     font-size: 18px;
     border-radius: 5px;
     border: none;
