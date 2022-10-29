@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    
+    
+}
+
+body {
+    background-color: #c7d6ed;
+    font-family: 'Poppins', sans-serif;
+    color: #130376;
+    padding: 0;
+    margin: 0;
+
+}
+
+.heading {
+    text-align: center;
+    margin: 50px;
+}
+
+h1.welcome {
+    font-size: 48px;
+    margin: 1px;
+}
+
+p.description {
+    font-size: 18px;
+    margin: 0;
+}
+
+.form {
+    width: 50%;
+    max-height: 500px;
+    margin: auto;
+    background:#ffffff;
+    text-align: left;
+    border-radius: 5px;
+    border: 2px solid #01015d;
+    padding: 25px 25px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    font-size: 18px;
+}
+
+input {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: normal;
+
+}
+
+label {
+    font-weight: bold;
+    font-size: 18px;
+    color: #001a61;
+    text-align: left;
+}
+
+
+input[type=text],
+input[type=password] {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: normal;
+
+}
+
+div button {
+    width: 50%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ffa42d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #001a61;
+    align-self: center;
+}
+
+
+
